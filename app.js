@@ -1,11 +1,17 @@
 console.log("Hello, world!")
 
 function sum(a, b){
-    return a + b
+    if (Number.isInteger(a) && Number.isInteger(b)){
+        return a + b
+    }
+    return null
 }
 
 function subtract(a, b){
-    return a - b
+    if (Number.isInteger(a) && Number.isInteger(b)){
+        return a - b
+    }
+    return null
 }
 
 function multiply(a, b){
