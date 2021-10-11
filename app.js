@@ -12,8 +12,13 @@ function multiply(a, b){
     return a * b
 }
 
+function divide(a, b){
+    return a / b
+}
+
 let a = 5
 let b = 8
 console.log(`${a} + ${b} = ${sum(a,b)}`)
 console.log(`${a} - ${b} = ${subtract(a,b)}`)
 console.log(`${a} * ${b} = ${multiply(a,b)}`)
+console.log(`${a} / ${b} = ${divide(a,b)}`)
