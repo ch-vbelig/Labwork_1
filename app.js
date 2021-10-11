@@ -8,7 +8,10 @@ function sum(a, b){
 }
 
 function subtract(a, b){
-    return a - b
+    if (Number.isInteger(a) && Number.isInteger(b)){
+        return a - b
+    }
+    return null
 }
 
 function multiply(a, b){
