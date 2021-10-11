@@ -30,7 +30,10 @@ function divide(a, b){
 
 let a = 5
 let b = 8
-console.log(`${a} + ${b} = ${sum(a,b)}`)
-console.log(`${a} - ${b} = ${subtract(a,b)}`)
-console.log(`${a} * ${b} = ${multiply(a,b)}`)
-console.log(`${a} / ${b} = ${divide(a,b)}`)
+
+if (sum(a,b) !== null){
+    console.log(`${a} + ${b} = ${sum(a,b)}`)
+    console.log(`${a} - ${b} = ${subtract(a,b)}`)
+    console.log(`${a} * ${b} = ${multiply(a,b)}`)
+    console.log(`${a} / ${b} = ${divide(a,b)}`)
+}
