@@ -15,7 +15,10 @@ function subtract(a, b){
 }
 
 function multiply(a, b){
-    return a * b
+    if (Number.isInteger(a) && Number.isInteger(b)){
+        return a * b
+    }
+    return null
 }
 
 function divide(a, b){
