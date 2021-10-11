@@ -22,7 +22,10 @@ function multiply(a, b){
 }
 
 function divide(a, b){
-    return a / b
+    if (Number.isInteger(a) && Number.isInteger(b)){
+        return a / b
+    }
+    return null
 }
 
 let a = 5
